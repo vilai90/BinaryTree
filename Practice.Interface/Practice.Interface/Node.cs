@@ -10,12 +10,6 @@ namespace Practice.Interface
         private T data;
         public Node<T> Left, Right;
 
-        public Node()
-        {
-            data = default(T);
-            Left = null;
-            Right = null;
-        }
         public T Data
         {
             set { data = value; }

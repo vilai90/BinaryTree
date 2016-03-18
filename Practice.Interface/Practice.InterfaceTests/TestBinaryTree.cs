@@ -33,7 +33,7 @@ namespace Practice.Test
             }
 
             // Assert (TODO)
-            bool additionFailure = _mock.Add(0);
+            bool additionFailure = _mock.Add(1);
             Assert.IsFalse(additionFailure, "number was added");
         }
 
